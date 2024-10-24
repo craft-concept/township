@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "dry/cli"
+
+require "township/cli/commands"
+
+Dry::CLI.new(Township::CLI::Commands).call
