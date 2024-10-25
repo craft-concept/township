@@ -24,6 +24,8 @@ Gem::Specification.new do |spec|
   spec.add_dependency "rails"
   spec.add_dependency "image_processing"
   spec.add_dependency "paper_trail"
+  spec.add_dependency "paper_trail-association_tracking"
   spec.add_dependency "cafe_car"
   spec.add_dependency "dry-cli"
+  spec.add_dependency "zeitwerk"
 end
